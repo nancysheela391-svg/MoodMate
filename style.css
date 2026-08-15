@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: #f8f0ff;
-    padding: 40px;
+    background: #fff0f5;
+    padding: 50px;
 }
 
 h1 {
-    color: #6a4c93;
+    color: #d633384;
     font-size: 40px;
 }
 
@@ -17,19 +17,27 @@ p {
 
 h2 {
     color: #444;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 button {
-    padding: 15px 20px;
-    margin: 10px;
+    padding: 12px 20px;
+    margin: 8px;
     border: none;
-    border-radius: 12px;
+    border-radius: 20px;
     background: white;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
 }
 
 button:hover {
+    background: #ffd6ef;
     transform: scale(1.05);
+}
+
+#moodMessage {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #d63384
+    font-weight: bold;
 }
